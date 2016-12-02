@@ -1,44 +1,42 @@
 # The Zen of Elixir
 
 Mastering Elixir is *not easy*. This project tries to collect the most inspiring
-resources about Elixir. It's not about teaching, it's about the most important
+resources about Elixir. It's not about teaching the basics, it's about the most important
 things that every Elixir programmer should know.
 
-There're some articles telling you these, but there's no place to keep them for
-Elixir beginners. It's why this project is created. *They are even very useful
-even if you are not a Elixir programmer.*
+There're articles, talks etc.. telling you these, but it can be hard to find as
+Elixir beginners. That's why this project is created. *These resources are useful
+and inspiring even if you don't program in Elixir (yet).*
 
-(Check [awesome-elixir](https://github.com/h4cc/awesome-elixir#resources)
-and [Elixir Radar](http://plataformatec.com.br/elixir-radar/) if you want to
-find resources about it.)
+(Check out [awesome-elixir](https://github.com/h4cc/awesome-elixir#resources)
+for a list of books, tools, forums etc.. for Elixir)
 
 ## Erlang
 
-* [The Zen of Erlang](http://ferd.ca/the-zen-of-erlang.html)
-
-It's important to understand Erlang if you want to be a master of Elixir.
-Try to think in Erlang's way by reading Fred's great article.
+* [The Zen of Erlang](http://ferd.ca/the-zen-of-erlang.html)  [中文](http://blog.aquarhead.me/2016/09/the-zen-of-erlang)
+It's important to understand Erlang - not the syntax - if you want to be a master of Elixir.
+Learn to think in *the BEAM way* by reading Fred's great article.
 
 ## Elixir
 
 * [Beyond Functional Programming with Elixir and Erlang](http://blog.plataformatec.com.br/2016/05/beyond-functional-programming-with-elixir-and-erlang/)
 
-As you know, Erlang/Elixir is a functional language. However, why is it designed
-to be functional and how José thinks about functional language?
+Erlang and Elixir are considered as functional languages. However, *it's not a goal*.
+So what is the goal of Elixir? And how FP contributes to it? Read this to find out.
 
 * [Comparing Elixir and Erlang variables](http://blog.plataformatec.com.br/2016/01/comparing-elixir-and-erlang-variables/)
 
-It's a little confusing to understand rebinding for immutable variables in Elixir.
+It can be confusing to understand rebinding of immutable variables in Elixir.
 Let José explain this for you :)
 
 * [Elixir in times of microservices](http://blog.plataformatec.com.br/2015/06/elixir-in-times-of-microservices/)
 
-Elixir aims at scalability and maintainability, but how to achieve this?
+Elixir excels at scalability and maintainability, but how to achieve this?
 You should consider **umbrella projects** first for your great projects.
 
 * [Mocks and explicit contracts](http://blog.plataformatec.com.br/2015/10/mocks-and-explicit-contracts/)
 
-Elixir is dynamic, so tests are important. It's functional, so it will be very
+Elixir is dynamic typed, so tests are important. It's functional, so it's very
 different to write tests. Forget what you know and learn from this great post.
 
 ## Phoenix
