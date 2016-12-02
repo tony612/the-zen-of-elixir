@@ -1,11 +1,11 @@
 # The Zen of Elixir
 
 Mastering Elixir is *not easy*. This project tries to collect the most inspiring
-resources about Elixir. It's not about teaching the basics, it's about the most important
-things that every Elixir programmer should know.
+resources about Elixir. It's not about teaching the basics, it's about the most
+important things that every Elixir programmer should know.
 
-There're articles, talks etc.. telling you these, but it can be hard to find as
-Elixir beginners. That's why this project is created. *These resources are useful
+There're articles, talks etc.. covering various topics, but they can be hard to
+find as Elixir beginners. That's why this project is created. *These resources are useful
 and inspiring even if you don't program in Elixir (yet).*
 
 (Check out [awesome-elixir](https://github.com/h4cc/awesome-elixir#resources)
@@ -37,7 +37,7 @@ You should consider **umbrella projects** first for your great projects.
 
 * [Mocks and explicit contracts](http://blog.plataformatec.com.br/2015/10/mocks-and-explicit-contracts/)
 
-Elixir is dynamic typed, so tests are important. It's functional, so it's very
+Elixir is dynamically typed, so tests are important. It's functional, so it's very
 different to write tests. Forget what you know and learn from this great post.
 
 ## Phoenix
@@ -50,5 +50,5 @@ like other applications. So learn to think of Phoenix in this way from this talk
 
 # Contributing
 
-Please provide a link for an item and introduction describing the reason to
-post it and the resource itself.
+Please provide a link and a summary describing why it's important knowledge for
+Elixir programmers.
