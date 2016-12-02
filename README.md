@@ -14,6 +14,7 @@ for a list of books, tools, forums etc.. for Elixir)
 ## Erlang
 
 * [The Zen of Erlang](http://ferd.ca/the-zen-of-erlang.html)  [中文](http://blog.aquarhead.me/2016/09/the-zen-of-erlang)
+
 It's important to understand Erlang - not the syntax - if you want to be a master of Elixir.
 Learn to think in *the BEAM way* by reading Fred's great article.
 
