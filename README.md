@@ -18,6 +18,10 @@ for a list of books, tools, forums etc.. for Elixir)
 It's important to understand Erlang - not the syntax - if you want to be a master of Elixir.
 Learn to think in *the BEAM way* by reading Fred's great article.
 
+* [Tail Call Optimization in Elixir & Erlang – not as efficient and important as you probably think](https://pragtob.wordpress.com/2016/06/16/tail-call-optimization-in-elixir-erlang-not-as-efficient-and-important-as-you-probably-think/)
+
+Every book about FP have a section on tail-recursive, but should we really always program in this style? More importantly, when in doubt, benchmark it!
+
 ## Elixir
 
 * [Beyond Functional Programming with Elixir and Erlang](http://blog.plataformatec.com.br/2016/05/beyond-functional-programming-with-elixir-and-erlang/)
@@ -39,6 +43,10 @@ You should consider **umbrella projects** first for your great projects.
 
 Elixir is dynamically typed, so tests are important. It's functional, so it's very
 different to write tests. Forget what you know and learn from this great post.
+
+* Elixir and IO Lists [part1](https://www.bignerdranch.com/blog/elixir-and-io-lists-part-1-building-output-efficiently/) [part2](https://www.bignerdranch.com/blog/elixir-and-io-lists-part-2-io-lists-in-phoenix/) [talk](https://www.youtube.com/watch?v=zZxBL-lV9uA)
+
+Be it rendering HTTP response, querying database or even writing to a file, what you actually operate on are *bytes*. All your messages passed around in distributed Erlang clusters are bytes too. How can we send bytes more efficiently? Do we really need to build the entire response or query as one whole thing before sending it? Check out this excellent series to learn the "secrets" of sending bytes.
 
 ## Phoenix
 
