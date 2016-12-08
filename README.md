@@ -22,6 +22,10 @@ Learn to think in *the BEAM way* by reading Fred's great article.
 
 Every book about FP have a section on tail recursion, but should we really always program in this style? More importantly, when in doubt, benchmark it!
 
+* [Thinking in Erlang](https://web.archive.org/web/20070212210331/http://chuffyrodents.org/erlang.pdf)
+
+A high level but useful survey of Erlang and its programming model for procedural programmers.
+
 ## Elixir
 
 * [Beyond Functional Programming with Elixir and Erlang](http://blog.plataformatec.com.br/2016/05/beyond-functional-programming-with-elixir-and-erlang/)
