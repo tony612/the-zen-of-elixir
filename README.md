@@ -50,6 +50,8 @@ Be it rendering HTTP response, querying database or even writing to a file, what
 
 ## Phoenix
 
+*We believe Elixir should not be limited to Phoenix, but still keep this section considering its popularity.*
+
 * [Phoenix Is Not Your Application](http://www.elixirconf.eu/elixirconf2016/lance-halvorsen)
 and [the discussion on elixirforum](https://elixirforum.com/t/phoenix-is-not-your-application-questions/735)
 
