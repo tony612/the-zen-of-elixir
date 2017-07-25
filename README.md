@@ -46,7 +46,7 @@ different to write tests. Forget what you know and learn from this great post.
 
 * Elixir and IO Lists [Part 1](https://www.bignerdranch.com/blog/elixir-and-io-lists-part-1-building-output-efficiently/), [Part 2](https://www.bignerdranch.com/blog/elixir-and-io-lists-part-2-io-lists-in-phoenix/), [Talk](https://www.youtube.com/watch?v=zZxBL-lV9uA)
 
-Be it rendering HTTP response, querying database or even writing to a file, what you actually operate on are *bytes*. All your messages passed around in distributed Erlang clusters are bytes too. How can we send bytes more efficiently? Do we really need to build the entire response or query as one whole thing before sending it? Check out this excellent series to learn the "secrets" of sending bytes.
+Be it rendering HTTP response, querying a database or even writing to a file, what you actually operate on are *bytes*. All your messages passed around in distributed Erlang clusters are bytes too. How can we send bytes more efficiently? Do we really need to build the entire response or query as one whole thing before sending it? Check out this excellent series to learn the "secrets" of sending bytes.
 
 ## Phoenix
 
