@@ -11,7 +11,7 @@ and inspiring even if you don't program in Elixir (yet).*
 (Check out [awesome-elixir](https://github.com/h4cc/awesome-elixir#resources)
 for a list of books, tools, forums etc.. for Elixir)
 
-## Erlang
+## BEAM
 
 * [The Zen of Erlang](http://ferd.ca/the-zen-of-erlang.html) （[中文翻译](http://blog.aquarhead.me/2016/09/the-zen-of-erlang)）
 
@@ -21,6 +21,12 @@ Learn to think in *the BEAM way* by reading Fred's great article.
 * [Tail Call Optimization in Elixir & Erlang – not as efficient and important as you probably think](https://pragtob.wordpress.com/2016/06/16/tail-call-optimization-in-elixir-erlang-not-as-efficient-and-important-as-you-probably-think/)
 
 Every book about FP have a section on tail recursion, but should we really always program in this style? More importantly, when in doubt, benchmark it!
+
+* [To spawn, or not to spawn?](http://theerlangelist.com/article/spawn_or_not)
+
+Everyone is excited about "Erlang Process", but should you use them at all times? Do separate modules always need to associate with separate processes? This inspiring article from Saša Jurić shows the differences between functions/modules and processes and how you should leverage them for different concerns.
+
+Interestingly, not long after this, in [José's keynote at ElixirConf.EU 2017](https://youtu.be/IZvpKhA6t8A?t=20m51s) he also talked about modules and processes (and data) being different parts which compose Elixir together.
 
 ## Elixir
 
